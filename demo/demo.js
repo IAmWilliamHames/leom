@@ -1,5 +1,10 @@
 // Import primitives from the Leom module
-import { createSignal, createMemo, createEffect, createRoot } from './leom.js'; // The source file is now named leom.js
+import {
+  createSignal,
+  createMemo,
+  createEffect,
+  createRoot,
+} from '../src/leom.js'; // The source file is now named leom.js
 
 // Helper function to create the DOM structure (Idempotent for stability)
 const setupDom = () => {
